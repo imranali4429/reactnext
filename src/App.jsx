@@ -1,19 +1,9 @@
-import Gallery, { Card as Image, Profile } from "./components/Gallery";
-// import Alias for Card component witten Card as Image
-
+import Bio from "./components/Bio.jsx";
 function App() {
   return (
     <div>
-      <h1>Welcome to my reactnext</h1>
-      <p>This is a simple gallery application built with React.</p>
-      <Gallery />
-      <br />
-      <Profile />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Image />
+      {/* <Markupjsx /> */}
+      <Bio />
     </div>
   );
 }
