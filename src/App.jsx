@@ -9,7 +9,8 @@
 
 
 
-// using the UserCard component in the main App component\
+// using the UserCard component in the main App component
+//Sequence =  usercard -TeamMember - Team - App.jsx
 import Team from "./components/Team";
 
 function App() {
